@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import uuid4 from "uuid4";
 
 const Education = () => {
-	const { certification, setCertification } = useState('');
-	const { diplomas, setDiplomas } = useState([]);
+	const [certification, setCertification] = useState('');
+	const [diplomas, setDiplomas ] = useState([]);
 	const inputAddDocument = document.getElementById('listOfEducations');
 	// constructor(props) {
 	// 	super(props);
